@@ -9,11 +9,14 @@ import { StefamonComponent } from './modules/stefamon/stefamon.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CardModule } from 'primeng/card';
 import { ButtonModule } from 'primeng/button';
-import {MenubarModule} from 'primeng/menubar';
+import { MenubarModule } from 'primeng/menubar';
+import { HomeComponent } from './modules/home/home.component';
+import { InputTextModule } from 'primeng/inputtext';
 
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
     StefamonComponent
   ],
   imports: [
@@ -25,6 +28,7 @@ import {MenubarModule} from 'primeng/menubar';
     CardModule,
     ButtonModule,
     MenubarModule,
+    InputTextModule
   ],
   providers: [],
   bootstrap: [AppComponent],
